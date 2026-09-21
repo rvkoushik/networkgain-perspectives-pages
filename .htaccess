@@ -1,0 +1,6 @@
+Options -Indexes
+
+AddType image/svg+xml .svg
+AddType application/rss+xml .xml
+
+ErrorDocument 404 /404.html

@@ -1,0 +1,196 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="canonical" href="https://perspectives.networkgain.com/perspectives/ai-engineering-whiplash-token-consumption-and-the-new-delivery-model/"><title>The AI Engineering Whiplash Is Really a Token Consumption Problem | NetworkGain Perspectives</title><meta name="description" content="A NetworkGain Perspective on the Faros AI Engineering Report 2026, token consumption, review burden, multi-exit engineering workflows, CrewPE, and FDE-led AI adoption."><meta property="og:type" content="article"><meta property="og:site_name" content="NetworkGain Perspectives"><meta property="og:title" content="The AI Engineering Whiplash Is Really a Token Consumption Problem | NetworkGain Perspectives"><meta property="og:description" content="A NetworkGain Perspective on the Faros AI Engineering Report 2026, token consumption, review burden, multi-exit engineering workflows, CrewPE, and FDE-led AI adoption."><meta property="og:url" content="https://perspectives.networkgain.com/perspectives/ai-engineering-whiplash-token-consumption-and-the-new-delivery-model/"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="The AI Engineering Whiplash Is Really a Token Consumption Problem | NetworkGain Perspectives"><meta name="twitter:description" content="A NetworkGain Perspective on the Faros AI Engineering Report 2026, token consumption, review burden, multi-exit engineering workflows, CrewPE, and FDE-led AI adoption."><link rel="stylesheet" href="/_astro/_slug_.Bm6KbO_4.css"></head> <body> <a class="skip-link" href="#main-content">Skip to content</a> <div class="site-shell"> <header class="site-header"> <nav class="nav" aria-label="Primary navigation"> <a class="brand" href="/" aria-label="NetworkGain Perspectives home"> <img src="/images/logo/networkgain-logo-header.png" alt="NetworkGain Consulting" width="720" height="121"> <span>Perspectives</span> </a> <div class="nav-links"> <a href="/#perspectives">Latest</a> <a href="/cyber-resilience/">Cyber &amp; Resilience</a> <a href="/#missions">Themes</a> <a href="/#formats">Formats</a> <a href="/about/">About</a> <a class="external-link" href="https://www.networkgain.com">NetworkGain.com ↗</a> </div> </nav> </header> <main class="main" id="main-content">  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"The AI Engineering Whiplash Is Really a Token Consumption Problem","description":"A NetworkGain Perspective on the Faros AI Engineering Report 2026, token consumption, review burden, multi-exit engineering workflows, CrewPE, and FDE-led AI adoption.","author":{"@type":"Person","name":"Srinivas Moorthy (aka RSM), Srinivasa Kottamasu (KSR), M. Murali, and Koushik Ramani"},"publisher":{"@type":"Organization","name":"NetworkGain Consulting","url":"https://www.networkgain.com"},"datePublished":"2026-07-14T00:00:00.000Z","dateModified":"2026-07-14T00:00:00.000Z","mainEntityOfPage":"https://perspectives.networkgain.com/perspectives/ai-engineering-whiplash-token-consumption-and-the-new-delivery-model/","articleSection":"Perspective","keywords":"AI Engineering, Token Consumption, CrewPE, EnWithAI, Forward Deployed Engineering, Execution Governance","image":"https://perspectives.networkgain.com/images/perspectives/ai-engineering-whiplash-token-consumption-visual.webp"}</script> <article> <header class="article-hero"> <div class="container"> <div class="meta-line"> <a href="/categories/perspective/">Perspective</a> <a href="/themes/ai-productivity/">AI &amp; Productivity</a> <span>July 14, 2026</span> <span>Updated July 14, 2026</span> <span>9 min read</span> </div> <h1>The AI Engineering Whiplash Is Really a Token Consumption Problem</h1> <p class="article-description">A NetworkGain roundtable on why more AI-generated code is not the same as more delivery capacity, and why enterprises need governed consumption, multi-exit workflows, CrewPE, and FDE-led adoption.</p> <p class="article-byline">By Srinivas Moorthy (aka RSM), Srinivasa Kottamasu (KSR), M. Murali, and Koushik Ramani</p> <figure class="article-image article-image-diagram"> <img src="/images/perspectives/ai-engineering-whiplash-token-consumption-visual.webp" alt="Visual explainer showing AI engineering whiplash, token consumption leaks, multi-exit engineering, CrewPE, FDE-led adoption, and trusted outcomes" decoding="async" fetchpriority="high"> <figcaption>NetworkGain / EnWithAI / CrewPE original visual explainer</figcaption> </figure> </div> </header> <div class="container"> <div class="article-shell"> <div> <div class="article-content"> <aside class="article-point-of-view" aria-label="NetworkGain point of view"> <span>NetworkGain Point of View</span> <p>A NetworkGain roundtable on why more AI-generated code is not the same as more delivery capacity, and why enterprises need governed consumption, multi-exit workflows, CrewPE, and FDE-led adoption.</p> </aside>  <p>The numbers are difficult to ignore.</p>
+<p>The Faros AI Engineering Report 2026, based on two years of data across 22,000 developers and more than 4,000 teams, points to a sharp acceleration pattern. High AI adoption correlates with more output, but also with more strain on engineering systems.</p>
+<p>The report highlights the pattern plainly:</p>
+<ul>
+<li>PR size is up 51.3%.</li>
+<li>Bugs per PR are up 28.7%.</li>
+<li>Median time in PR review is up roughly 5X.</li>
+<li>Incidents per PR are up 242.7%, more than tripling relative to the low-AI-adoption baseline.</li>
+<li>Code churn is up 861%, about 9.6X the prior rate.</li>
+<li>Bugs per developer are up 54%.</li>
+</ul>
+<p>Those numbers do not argue against AI.</p>
+<p>They argue against unmanaged AI.</p>
+<p>We discussed the report as a working conversation between Srinivas Moorthy (aka RSM), KSR, Murali, and Koushik. The question was not whether AI engineering tools are useful. They clearly are. The question was whether enterprises are redesigning the delivery system fast enough to absorb what these tools now produce.</p>
+<p>Koushik framed the discussion this way:</p>
+<blockquote>
+<p>If AI makes execution cheap, what becomes expensive?</p>
+</blockquote>
+<p>The answer was immediate.</p>
+<p>Verification. Context. Review. Coordination. Rework. And increasingly, token consumption.</p>
+<h2 id="srinivas-moorthy-aka-rsm-are-we-mistaking-activity-for-capacity">Srinivas Moorthy (aka RSM): Are We Mistaking Activity For Capacity?</h2>
+<p>Srinivas Moorthy opened as the skeptic.</p>
+<p>“The report says output is up. Fine. But the same report says bugs, review time, incidents, and churn are also up. So are we increasing capacity, or are we increasing motion?”</p>
+<p>That is the uncomfortable question.</p>
+<p>AI coding tools make it easy to begin. They make it easy to generate. They make it easy to expand scope. They make it easy to ask for one more version, one more refactor, one more test, one more architecture suggestion, one more explanation.</p>
+<p>But enterprise delivery is not measured by how much code was produced.</p>
+<p>It is measured by how much trusted change reached production without creating avoidable operational burden.</p>
+<p>Srinivas Moorthy’s concern was not anti-AI. It was anti-theatre.</p>
+<p>“If a team generates more code, opens larger PRs, spends longer in review, creates more defects, and burns more tokens correcting itself, why should we call that productivity?”</p>
+<p>That is a fair challenge.</p>
+<p>AI can compress execution time while expanding verification cost.</p>
+<p>If leaders measure only the first part, they will miss the second.</p>
+<h2 id="ksr-the-problem-is-not-the-tool-it-is-the-operating-model">KSR: The Problem Is Not The Tool. It Is The Operating Model.</h2>
+<p>KSR took the pro-AI position, but with a clear caveat.</p>
+<p>“The answer is not to slow AI down. The answer is to change the engineering model around it.”</p>
+<p>That distinction matters.</p>
+<p>The market should not respond to these numbers by retreating from AI engineering. Claude, OpenAI, Cursor, coding agents, test generators, review assistants, and future product engineering copilots will all have a place in the enterprise stack.</p>
+<p>The mistake is assuming any one of them, by itself, is the delivery model.</p>
+<p>They are engines.</p>
+<p>The enterprise still needs traffic rules, inspection points, lane discipline, exit ramps, recovery paths, and human accountability.</p>
+<p>KSR’s view was that AI has exposed a weakness that already existed in many engineering organizations. Requirements were loose. Acceptance criteria were inconsistent. Architecture governance was uneven. Review queues depended too heavily on senior engineers. Product context often lived in conversations rather than structured artifacts.</p>
+<p>AI did not create all of that.</p>
+<p>It accelerated into it.</p>
+<p>“When the operating model is loose,” KSR said, “AI does not merely produce faster. It amplifies ambiguity faster.”</p>
+<p>That is the key shift.</p>
+<p>AI adoption is not only a tooling decision. It is an operating model decision.</p>
+<h2 id="murali-token-consumption-is-the-new-waste-stream">Murali: Token Consumption Is The New Waste Stream</h2>
+<p>Murali brought the conversation back to economics.</p>
+<p>“Everyone talks about code volume. I am more worried about token volume.”</p>
+<p>That may be the more important enterprise question.</p>
+<p>Token consumption is often treated as a cloud-cost line item or a procurement issue. But in AI-native engineering, token consumption is also a quality signal.</p>
+<p>Excessive token use can mean:</p>
+<ul>
+<li>The requirement was unclear.</li>
+<li>The agent loaded too much irrelevant context.</li>
+<li>The workflow had no scope boundary.</li>
+<li>The team asked the model to reason repeatedly over preventable ambiguity.</li>
+<li>The first output was not review-ready.</li>
+<li>The system lacked cheap deterministic gates before expensive model calls.</li>
+<li>Human feedback arrived too late.</li>
+</ul>
+<p>In other words, token waste is often process waste.</p>
+<p>Murali’s point was practical:</p>
+<p>“If a team needs ten AI passes to reach an acceptable output, maybe the issue is not model capability. Maybe the issue is that the work was not specified well enough before execution.”</p>
+<p>That is where token consumption becomes a management signal.</p>
+<p>Leaders should not only ask, “How much did we spend on AI?”</p>
+<p>They should ask:</p>
+<ul>
+<li>Which work consumed the most tokens?</li>
+<li>Which tasks required the most retries?</li>
+<li>Which repositories or domains created the largest context loads?</li>
+<li>Which teams produced the most review-ready output per token consumed?</li>
+<li>Which workflows created high token burn but low production impact?</li>
+<li>Which AI interactions ended in human rework?</li>
+</ul>
+<p>Those questions move token management from finance to engineering governance.</p>
+<h2 id="koushik-the-missing-layer-is-multi-exit-engineering">Koushik: The Missing Layer Is Multi-Exit Engineering</h2>
+<p>Koushik moderated the discussion toward the delivery model.</p>
+<p>“The answer cannot be one giant AI pipeline that assumes every task should become a PR. Enterprises need multi-exit paths.”</p>
+<p>This is important.</p>
+<p>Not every AI-assisted engineering activity should proceed to code generation. Some should exit into clarification. Some should exit into architecture review. Some should exit into manual engineering. Some should exit into a smaller proof. Some should exit into a different tool. Some should exit into human approval. Some should stop.</p>
+<p>A mature AI engineering platform should support multiple exits:</p>
+<ul>
+<li><strong>Clarify:</strong> the business intent is not yet clear enough.</li>
+<li><strong>Specify:</strong> the work can proceed only after acceptance criteria are written.</li>
+<li><strong>Simulate:</strong> the decision needs scenario testing before implementation.</li>
+<li><strong>Generate:</strong> the task is bounded enough for agentic execution.</li>
+<li><strong>Review:</strong> the output needs human or expert validation.</li>
+<li><strong>Refactor:</strong> the current path produced avoidable complexity.</li>
+<li><strong>Escalate:</strong> the risk, cost, architecture, or compliance concern is material.</li>
+<li><strong>Stop:</strong> the task should not proceed.</li>
+</ul>
+<p>This is where many tool-first approaches are still immature.</p>
+<p>They optimize for continuation.</p>
+<p>Enterprise engineering needs intelligent exit.</p>
+<h2 id="the-roundtable-view-more-code-is-not-the-goal">The Roundtable View: More Code Is Not The Goal</h2>
+<p>At this point, the group converged on a simple position.</p>
+<p>AI engineering should not be judged by whether it generates more code.</p>
+<p>It should be judged by whether it improves the throughput of trusted outcomes.</p>
+<p>Those are different measures.</p>
+<p>More code can increase delivery capacity.</p>
+<p>More code can also increase review load, token burn, incident risk, architectural drift, and senior-engineer fatigue.</p>
+<p>The difference lies in the operating system around the AI.</p>
+<p>Srinivas Moorthy’s challenge remained useful:</p>
+<p>“If we cannot tell when the system should stop, when it should escalate, and when a human must decide, then we have not built AI engineering. We have built an expensive autocomplete loop.”</p>
+<p>KSR agreed, but added the constructive layer:</p>
+<p>“The answer is not less AI. The answer is governed AI.”</p>
+<p>Murali put it in business terms:</p>
+<p>“The advantage is not lower cost per generated line. The advantage is lower cost per trusted outcome.”</p>
+<p>That phrase matters.</p>
+<p>Cost per trusted outcome is a better enterprise metric than cost per prompt, cost per token, or code generated per developer.</p>
+<h2 id="why-enwithai-crewpe-fits-this-problem">Why EnWithAI CrewPE Fits This Problem</h2>
+<p>This is the problem EnWithAI CrewPE is designed to address.</p>
+<p>CrewPE is not positioned as another coding interface. It is a guided product engineering and execution system for AI-native delivery.</p>
+<p>It helps teams move through a disciplined path:</p>
+<p><strong>Discover -&gt; Specify -&gt; Prepare -&gt; Execute -&gt; Validate -&gt; Improve</strong></p>
+<p>That sequence matters because it creates decision points before and after generation.</p>
+<p>Discover prevents weak intent from becoming expensive execution.</p>
+<p>Specify converts business and engineering goals into reviewable criteria.</p>
+<p>Prepare assembles context, architecture, constraints, prompts, tests, and operating boundaries.</p>
+<p>Execute allows AI tools and agents to act within a governed frame.</p>
+<p>Validate checks outputs against evidence, not confidence.</p>
+<p>Improve turns failures, review patterns, and token-heavy loops into reusable product intelligence.</p>
+<p>This is also where CrewPE can be tool-inclusive rather than tool-exclusive.</p>
+<p>The future will not belong to a single model or coding assistant. Enterprises will use multiple AI systems across planning, coding, review, documentation, testing, analytics, and support.</p>
+<p>CrewPE’s role is to provide the execution fabric above them.</p>
+<p>Claude can reason. OpenAI models can generate and analyze. Cursor can assist in the engineering environment. Other agents can test, refactor, document, or review.</p>
+<p>The question is not which tool wins.</p>
+<p>The question is which operating system makes all of them useful without losing control.</p>
+<h2 id="why-fde-matters-for-consulting-and-deployment">Why FDE Matters For Consulting And Deployment</h2>
+<p>The report’s findings also point toward a consulting and deployment reality.</p>
+<p>Enterprises do not only need licenses.</p>
+<p>They need adoption engineering.</p>
+<p>That is where Forward Deployed Engineering becomes important.</p>
+<p>An FDE-led model can help organizations translate AI ambition into governed adoption by working directly inside the client environment:</p>
+<ul>
+<li>Map real workflows instead of abstract use cases.</li>
+<li>Identify where token consumption is leaking.</li>
+<li>Define acceptance criteria before agentic execution.</li>
+<li>Create reusable prompts, specifications, and validation packs.</li>
+<li>Tune multi-exit paths for each team and domain.</li>
+<li>Establish review gates that protect senior engineering time.</li>
+<li>Build measurement around trusted outcomes, not activity.</li>
+<li>Convert each engagement into reusable product intelligence.</li>
+</ul>
+<p>The FDE does not replace the client team.</p>
+<p>The FDE helps the client team build the new operating muscle.</p>
+<p>This is the difference between selling AI tooling and deploying AI capability.</p>
+<h2 id="what-leaders-should-measure-next">What Leaders Should Measure Next</h2>
+<p>If the Faros report is a warning signal, the leadership response should be measurable.</p>
+<p>Enterprises scaling AI engineering should track:</p>
+<ul>
+<li>Token consumption per accepted change</li>
+<li>Token consumption per trusted outcome</li>
+<li>Retry count per task</li>
+<li>PR size and files touched per AI-assisted change</li>
+<li>Review time by risk class</li>
+<li>Incidents per PR</li>
+<li>Bugs per PR</li>
+<li>Churn after AI-assisted merges</li>
+<li>Percentage of AI-assisted work exiting to clarification before code</li>
+<li>Percentage of work stopped before wasteful execution</li>
+<li>Human approval points for high-risk changes</li>
+<li>Reusable learning captured per delivery cycle</li>
+</ul>
+<p>The most important metric may be this:</p>
+<p><strong>How often does AI help the organization decide not to generate code yet?</strong></p>
+<p>That is not a failure.</p>
+<p>That is maturity.</p>
+<h2 id="the-networkgain-perspective">The NetworkGain Perspective</h2>
+<p>NetworkGain’s view is straightforward.</p>
+<p>The AI engineering problem is no longer whether tools can generate code.</p>
+<p>They can.</p>
+<p>The problem is whether enterprises can govern the consumption of AI effort so that generation converts into trusted outcomes.</p>
+<p>Token consumption is not just spend.</p>
+<p>It is a signal of clarity, context discipline, workflow design, and engineering maturity.</p>
+<p>The answer is not to choose between speed and control. The answer is to create a delivery model where speed has exits, gates, evidence, and guidance.</p>
+<p>That is why the practical path points toward EnWithAI CrewPE, supported by FDE-led consulting and deployment.</p>
+<p>CrewPE gives the platform rhythm.</p>
+<p>FDE gives the adoption muscle.</p>
+<p>Together, they help enterprises move from AI activity to AI engineering.</p>
+<p>The best AI tools should want to participate in that model because it makes their outputs more valuable.</p>
+<p>Not more code for its own sake.</p>
+<p>More trusted outcomes, with less waste, less rework, and better judgment about when not to generate at all.</p>  </div>  <section class="article-share" aria-labelledby="article-share-title"> <div> <p class="eyebrow">Share the decision</p> <h2 id="article-share-title">Forward the perspective. Start the discussion.</h2>  </div> <div class="article-share-actions"> <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fperspectives.networkgain.com%2Fperspectives%2Fai-engineering-whiplash-token-consumption-and-the-new-delivery-model%2F" target="_blank" rel="noopener noreferrer">Share on LinkedIn</a> <a class="button secondary" href="mailto:?subject=The%20AI%20Engineering%20Whiplash%20Is%20Really%20a%20Token%20Consumption%20Problem&#38;body=I%20thought%20this%20NetworkGain%20Perspective%20was%20worth%20discussing%3A%20https%3A%2F%2Fperspectives.networkgain.com%2Fperspectives%2Fai-engineering-whiplash-token-consumption-and-the-new-delivery-model%2F">Forward by email</a> <button class="button secondary copy-link" type="button" data-share-url="https://perspectives.networkgain.com/perspectives/ai-engineering-whiplash-token-consumption-and-the-new-delivery-model/">Copy link</button> </div> </section> <div class="article-footer-cta"> <p class="eyebrow">From perspective to outcome</p> <h2 class="entry-title">Bring this view into an operating conversation</h2> <p class="entry-description">
+If this issue is active in your leadership agenda, NetworkGain can help frame the
+              outcome, pressure-test the operating assumptions, and shape the execution path.
+</p> <div class="cta-row"> <a class="button" href="https://www.networkgain.com/contact">Discuss this perspective</a> <a class="button secondary" href="https://www.networkgain.com/#outcomes-office">Bring Us an Outcome</a> </div> </div> <section class="related-reading" aria-labelledby="related-reading-title"> <p class="eyebrow">Related reading</p> <h2 id="related-reading-title">More from this decision frame</h2> <div class="related-grid"> <a class="related-card" href="/perspectives/ai-valuations-need-operating-discipline/"> <span>AI &amp; Productivity</span> <strong>AI Valuations Need Operating Discipline</strong> <small>July 14, 2026 · 8 min read</small> </a><a class="related-card" href="/perspectives/precision-wins-speed-alone-doesnt-enterprise-ai-engineering/"> <span>AI &amp; Productivity</span> <strong>Precision Wins. Speed Alone Doesn&#39;t.</strong> <small>July 13, 2026 · 5 min read</small> </a><a class="related-card" href="/perspectives/rewiring-software-delivery-for-the-agentic-era/"> <span>AI &amp; Productivity</span> <strong>Rewiring Software Delivery for the Agentic Era Requires Trust, Not Just Velocity</strong> <small>June 5, 2026 · 7 min read</small> </a> </div> </section> <nav class="prev-next" aria-label="Adjacent perspectives"> <div> <a href="/perspectives/ai-valuations-need-operating-discipline/"> <span class="kicker">Previous</span> <strong>AI Valuations Need Operating Discipline</strong> </a> </div> <div> <a href="/perspectives/stop-ai-agent-sprawl/"> <span class="kicker">Next</span> <strong>Stop AI Agent Sprawl Before It Becomes an Enterprise Control Failure</strong> </a> </div> </nav> </div> <aside class="article-aside" aria-label="Perspective details"> <dl> <div> <dt>Author</dt> <dd>Srinivas Moorthy (aka RSM), Srinivasa Kottamasu (KSR), M. Murali, and Koushik Ramani</dd> </div> <div> <dt>Published</dt> <dd>July 14, 2026</dd> </div> <div> <dt>Updated</dt> <dd>July 14, 2026</dd> </div>   <div> <dt>Category</dt> <dd><a href="/categories/perspective/">Perspective</a></dd> </div> <div> <dt>Outcome mission</dt> <dd><a href="/themes/ai-productivity/">AI &amp; Productivity</a></dd> </div> <div> <dt>Tags</dt> <dd class="tag-list"> <a class="tag" href="/tags/ai-engineering/">AI Engineering</a><a class="tag" href="/tags/token-consumption/">Token Consumption</a><a class="tag" href="/tags/crewpe/">CrewPE</a><a class="tag" href="/tags/enwithai/">EnWithAI</a><a class="tag" href="/tags/forward-deployed-engineering/">Forward Deployed Engineering</a><a class="tag" href="/tags/execution-governance/">Execution Governance</a> </dd> </div> </dl> </aside> </div> </div> </article> <script type="module">document.querySelectorAll("[data-share-url]").forEach(t=>{t.addEventListener("click",async()=>{const e=t.dataset.shareUrl;if(e)try{await navigator.clipboard.writeText(e);const r=t.textContent;t.textContent="Link copied",window.setTimeout(()=>{t.textContent=r},1800)}catch{window.prompt("Copy this link",e)}})});</script>  </main> <footer class="site-footer"> <div class="footer-inner"> <div class="footer-grid"> <div> <div class="footer-brand"> <span class="footer-logo-frame"> <img src="/images/logo/networkgain-logo-footer-dark.png" alt="NetworkGain Consulting" width="280" height="90"> </span> <div> <p>From strategic intent to measurable outcomes.</p> </div> </div> <p class="footer-statement">
+The CXO Outcomes Office™ for leaders who need outcome clarity,
+                operating architecture, specialist orchestration, governance cadence,
+                and measurable progress.
+</p> <div class="footer-contact"> <a href="mailto:info@networkgain.com">info@networkgain.com</a> <a href="tel:+914428470066" aria-label="Call NetworkGain">+91 44 2847 00 66 / 99</a> <span>Chennai, Tamil Nadu, India</span> </div> </div> <div> <h2 class="footer-heading">Outcomes</h2> <div class="footer-links"> <a href="https://www.networkgain.com/outcome-missions/#growth-revenue">Growth &amp; Revenue</a><a href="https://www.networkgain.com/outcome-missions/#ai-productivity">AI &amp; Productivity</a><a href="https://www.networkgain.com/outcome-missions/#operating-performance">Operating Performance</a><a href="https://www.networkgain.com/outcome-missions/#technology-modernization">Technology Modernization</a><a href="https://www.networkgain.com/outcome-missions/#risk-resilience">Risk &amp; Resilience</a><a href="https://www.networkgain.com/outcome-missions/#strategic-transformation">Strategic Transformation</a> </div> </div> <div> <h2 class="footer-heading">Company</h2> <div class="footer-links"> <a href="https://www.networkgain.com/outcomes-office">Outcomes Office</a><a href="https://www.networkgain.com/outcome-missions">Outcome Missions</a><a href="https://www.networkgain.com/how-we-work">How We Work</a><a href="https://www.networkgain.com/evidence">Evidence</a><a href="https://www.networkgain.com/ecosystem">Ecosystem</a><a href="https://www.networkgain.com/insights">Insights</a><a href="https://www.networkgain.com/ask-ai">Ask AI about NetworkGain</a><a href="https://www.networkgain.com/contact">Contact</a> </div> </div> <div> <h2 class="footer-heading">Ecosystem</h2> <div class="footer-links"> <a href="https://www.networkgain.com/ecosystem">Kriti Labs</a><a href="https://www.networkgain.com/ecosystem">Yashmia Consulting and Technologies</a><a href="https://www.networkgain.com/ecosystem">EnWithAI Technologies</a><a href="https://www.networkgain.com/ecosystem">3nayan</a><a href="https://www.networkgain.com/ecosystem">AxIncha</a><a href="https://www.networkgain.com/ecosystem">Nuvteq</a><a href="https://www.networkgain.com/ecosystem">A.K. Mylsamy &amp; Associates LLP</a> </div> <div class="footer-social"> <h3 class="sr-only">NetworkGain social media</h3> <div class="social-links"> <a href="https://www.linkedin.com/company/networkgain/" target="_blank" rel="noopener noreferrer" aria-label="Follow NetworkGain on LinkedIn" title="LinkedIn"> in </a><a href="https://www.instagram.com/network.gain/" target="_blank" rel="noopener noreferrer" aria-label="Follow NetworkGain on Instagram" title="Instagram"> ◎ </a><a href="https://twitter.com/InfinitePartner" target="_blank" rel="noopener noreferrer" aria-label="Follow NetworkGain on Twitter" title="Twitter"> X </a><a href="https://www.facebook.com/NetworkGain" target="_blank" rel="noopener noreferrer" aria-label="Follow NetworkGain on Facebook" title="Facebook"> f </a> </div> <a class="footer-ai-link" href="https://www.networkgain.com/ask-ai">
+Ask AI about NetworkGain →
+</a> </div> </div> </div> <p class="footer-built">
+Designed and built in India by <a href="https://www.enwithai.com/">EnWithAI</a>  · CLEAR™ · <a href="https://www.crewpe.ai/">CrewPE</a> </p> <div class="footer-bottom"> <div class="footer-legal"> <p>© 2026 NetworkGain Consulting. All rights reserved.</p> <span aria-hidden="true">/</span> <a href="https://www.networkgain.com/privacy-policy">Privacy Policy</a> <span aria-hidden="true">/</span> <a href="https://www.networkgain.com/terms-and-conditions">Terms and Conditions</a> </div> <p>
+Selected visual backgrounds use Unsplash photography and Magnific / Freepik abstract assets.
+</p> </div> </div> </footer> </div> </body></html>

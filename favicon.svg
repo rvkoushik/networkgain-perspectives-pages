@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="NetworkGain Perspectives">
+  <rect width="64" height="64" rx="10" fill="#101820"/>
+  <path d="M14 42V18h6l17 15V18h13v24h-6L27 27v15H14Z" fill="#f7f3ea"/>
+  <path d="M44 46H20" stroke="#b08d57" stroke-width="4" stroke-linecap="round"/>
+</svg>

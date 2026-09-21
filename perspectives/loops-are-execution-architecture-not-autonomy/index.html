@@ -1,0 +1,182 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="canonical" href="https://perspectives.networkgain.com/perspectives/loops-are-execution-architecture-not-autonomy/"><title>Loops Are Not Autonomy. They Are Execution Architecture. | NetworkGain Perspectives</title><meta name="description" content="A NetworkGain Perspective on why agentic AI needs governed loops, explicit contracts, state, verification, and escalation before it can become enterprise capability."><meta property="og:type" content="article"><meta property="og:site_name" content="NetworkGain Perspectives"><meta property="og:title" content="Loops Are Not Autonomy. They Are Execution Architecture. | NetworkGain Perspectives"><meta property="og:description" content="A NetworkGain Perspective on why agentic AI needs governed loops, explicit contracts, state, verification, and escalation before it can become enterprise capability."><meta property="og:url" content="https://perspectives.networkgain.com/perspectives/loops-are-execution-architecture-not-autonomy/"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Loops Are Not Autonomy. They Are Execution Architecture. | NetworkGain Perspectives"><meta name="twitter:description" content="A NetworkGain Perspective on why agentic AI needs governed loops, explicit contracts, state, verification, and escalation before it can become enterprise capability."><link rel="stylesheet" href="/_astro/_slug_.Bm6KbO_4.css"></head> <body> <a class="skip-link" href="#main-content">Skip to content</a> <div class="site-shell"> <header class="site-header"> <nav class="nav" aria-label="Primary navigation"> <a class="brand" href="/" aria-label="NetworkGain Perspectives home"> <img src="/images/logo/networkgain-logo-header.png" alt="NetworkGain Consulting" width="720" height="121"> <span>Perspectives</span> </a> <div class="nav-links"> <a href="/#perspectives">Latest</a> <a href="/cyber-resilience/">Cyber &amp; Resilience</a> <a href="/#missions">Themes</a> <a href="/#formats">Formats</a> <a href="/about/">About</a> <a class="external-link" href="https://www.networkgain.com">NetworkGain.com ↗</a> </div> </nav> </header> <main class="main" id="main-content">  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Loops Are Not Autonomy. They Are Execution Architecture.","description":"A NetworkGain Perspective on why agentic AI needs governed loops, explicit contracts, state, verification, and escalation before it can become enterprise capability.","author":{"@type":"Person","name":"R Koushik, NetworkGain Consulting"},"publisher":{"@type":"Organization","name":"NetworkGain Consulting","url":"https://www.networkgain.com"},"datePublished":"2026-07-01T00:00:00.000Z","dateModified":"2026-07-01T00:00:00.000Z","mainEntityOfPage":"https://perspectives.networkgain.com/perspectives/loops-are-execution-architecture-not-autonomy/","articleSection":"Perspective","keywords":"Agentic AI, Loop Engineering, Execution Governance, AI-Native Delivery, Enterprise AI, TRACE","image":"https://perspectives.networkgain.com/images/perspectives/loops-execution-architecture-visual.webp"}</script> <article> <header class="article-hero"> <div class="container"> <div class="meta-line"> <a href="/categories/perspective/">Perspective</a> <a href="/themes/ai-productivity/">AI &amp; Productivity</a> <span>July 1, 2026</span> <span>Updated July 1, 2026</span> <span>8 min read</span> </div> <h1>Loops Are Not Autonomy. They Are Execution Architecture.</h1> <p class="article-description">Why the next advantage in agentic AI will come from designing governed loops that execute, verify, learn, and escalate with discipline.</p> <p class="article-byline">By R Koushik, NetworkGain Consulting</p> <figure class="article-image article-image-diagram"> <img src="/images/perspectives/loops-execution-architecture-visual.webp" alt="Visual explainer showing the shift from prompt era to loop engineering with agent execution, human governance, and market feedback loops" decoding="async" fetchpriority="high"> <figcaption>NetworkGain / EnWithAI / CrewPE original visual explainer</figcaption> </figure> </div> </header> <div class="container"> <div class="article-shell"> <div> <div class="article-content"> <aside class="article-point-of-view" aria-label="NetworkGain point of view"> <span>NetworkGain Point of View</span> <p>Why the next advantage in agentic AI will come from designing governed loops that execute, verify, learn, and escalate with discipline.</p> </aside>  <p>Most AI adoption conversations still begin with the prompt.</p>
+<p>That frame is already too small.</p>
+<p>A prompt is a request. A loop is an execution system.</p>
+<p>A prompt asks the model to respond. A loop gives an agent a goal, a workspace, a way to inspect state, a method for verification, memory of what has happened, and rules for when to continue, stop, or escalate.</p>
+<p>That distinction matters because enterprises do not need more impressive AI demos.</p>
+<p>They need repeatable execution.</p>
+<p>The next advantage in agentic AI will not come from giving agents unlimited freedom. It will come from designing better loops: bounded, observable, verifiable systems that convert intent into progress without losing accountability.</p>
+<p>This is also why emerging conversations around <a href="https://agentnativeengineering.com/">Agent Native Engineering</a> matter. The shift is not only about adding AI to existing engineering work. It is about redesigning work so agents, humans, specifications, tests, traces, and feedback loops operate as one execution system.</p>
+<h2 id="the-prompt-era-keeps-the-human-in-the-middle">The Prompt Era Keeps The Human In The Middle</h2>
+<p>The first phase of generative AI taught people to prompt.</p>
+<p>Ask a question. Receive an answer. Correct the output. Paste the error back. Ask again. Review again. Repeat until the result looks usable.</p>
+<p>That pattern feels productive because the model is fast.</p>
+<p>But it quietly leaves the human doing the most important control work:</p>
+<ul>
+<li>Remembering the goal</li>
+<li>Tracking what has already happened</li>
+<li>Checking whether the output is correct</li>
+<li>Deciding what to try next</li>
+<li>Restarting the task when context breaks</li>
+<li>Knowing when to stop</li>
+</ul>
+<p>In other words, the human is still the loop.</p>
+<p>That works for occasional tasks. It does not scale into an operating model.</p>
+<p>For agentic AI to become useful inside enterprises, the control work must be designed deliberately. The system needs to know what to do after each turn, what evidence to trust, what state to preserve, and which decisions still require human judgment.</p>
+<p>That is where loop engineering begins.</p>
+<h2 id="what-a-loop-really-is">What A Loop Really Is</h2>
+<p>A loop is a small execution system that runs until a defined condition is met.</p>
+<p>It is not just a scheduled task. A scheduled task repeats instructions. A loop inspects state and decides the next action.</p>
+<p>The basic pattern is simple:</p>
+<ol>
+<li>Find the work.</li>
+<li>Act on one unit of work.</li>
+<li>Check the result.</li>
+<li>Record what happened.</li>
+<li>Decide whether to continue, stop, retry, or escalate.</li>
+</ol>
+<p>The power is not in the repetition alone.</p>
+<p>The power is in the decision discipline inside the repetition.</p>
+<p>For example, an agent asked to draft a report may produce something plausible in one response. But a loop can be designed to inspect every claim, open every source, reject broken links, replace unsupported assertions, and stop only when the evidence contract is met.</p>
+<p>The first version produces output.</p>
+<p>The second produces accountable work.</p>
+<p>That is the difference enterprises should care about.</p>
+<h2 id="why-loops-matter-now">Why Loops Matter Now</h2>
+<p>Software delivery is exposing the pattern first because coding agents can already write, test, fix, and retry work with increasing competence.</p>
+<p>But loops are not limited to coding.</p>
+<p>The same operating logic applies to many enterprise workflows:</p>
+<ul>
+<li>Monitoring failed jobs and preparing corrective action</li>
+<li>Reviewing contract clauses against policy</li>
+<li>Checking customer support queues for unresolved themes</li>
+<li>Reconciling invoices against purchase orders</li>
+<li>Updating knowledge bases from resolved tickets</li>
+<li>Classifying production defects and recommending next checks</li>
+<li>Preparing weekly sales intelligence from CRM movement</li>
+<li>Reviewing compliance evidence against acceptance criteria</li>
+<li>Generating and validating test cases from product specifications</li>
+</ul>
+<p>In each case, the question is not, “Can an AI tool do a task?”</p>
+<p>The better question is:</p>
+<blockquote>
+<p>Can the work be shaped into a loop with clear state, verification, stop rules, and escalation?</p>
+</blockquote>
+<p>If yes, the organization has a candidate for agentic execution.</p>
+<p>If no, the organization may only have a better prompt.</p>
+<h2 id="three-loops-leaders-should-understand">Three Loops Leaders Should Understand</h2>
+<p>Agentic work does not operate on one rhythm.</p>
+<p>It operates through multiple loops with different speeds and different accountabilities.</p>
+<h3 id="1-the-agent-execution-loop">1. The Agent Execution Loop</h3>
+<p>This loop runs in minutes.</p>
+<p>It performs a bounded task: write code, inspect a file, summarize a queue, test an output, classify a defect, update a document, or prepare a recommendation.</p>
+<p>Its strength is speed.</p>
+<p>Its weakness is local judgment. It can optimize the task without understanding the wider business consequence unless the context and acceptance criteria are explicit.</p>
+<h3 id="2-the-human-governance-loop">2. The Human Governance Loop</h3>
+<p>This loop runs in hours.</p>
+<p>It reviews agent output, resolves ambiguity, approves irreversible actions, adjusts priority, and decides whether the loop is still aligned with the business frame.</p>
+<p>Its strength is judgment.</p>
+<p>Its weakness is throughput. If every loop depends on constant human review, the organization has not gained autonomy. It has only created a faster queue for human decisions.</p>
+<h3 id="3-the-market-and-operating-feedback-loop">3. The Market And Operating Feedback Loop</h3>
+<p>This loop runs in days or weeks.</p>
+<p>It observes whether the work actually improved customer behavior, user adoption, quality, cost, revenue, risk, or operating performance.</p>
+<p>Its strength is reality.</p>
+<p>Its weakness is latency. The market, customer, plant, or operating process teaches slowly compared with the agent.</p>
+<p>The organizations that win with agentic AI will not merely accelerate the first loop.</p>
+<p>They will connect all three.</p>
+<p>This is the same direction that EnWithAI and <a href="https://crewpe.ai">CrewPE</a> point toward: AI intent must become trusted execution, and product intent must become validated software. Loops are the operating mechanism that makes that possible.</p>
+<h2 id="where-loops-work-well">Where Loops Work Well</h2>
+<p>Loops work best when the work has repeatability, observability, and verifiability.</p>
+<p>Good candidates usually have five characteristics.</p>
+<p>First, the task repeats often enough to justify the setup cost. A one-time judgment call may need a strong prompt, not a loop.</p>
+<p>Second, the output can be checked. A test, rule, benchmark, schema, evidence requirement, type check, reconciliation, policy, or acceptance criterion must be able to reject weak work.</p>
+<p>Third, the agent has access to the right tools. A coding loop without a test environment is blind. A finance loop without source documents is speculative. A manufacturing loop without process context is guesswork.</p>
+<p>Fourth, the loop has a budget. Agents may retry, inspect, branch, and correct. Without time, token, cost, or iteration limits, the loop can waste resources while appearing busy.</p>
+<p>Fifth, the loop has a human escalation path. Anything irreversible, commercially material, legally sensitive, or strategically ambiguous must know when to stop and ask.</p>
+<p>These conditions make loops useful.</p>
+<p>Without them, loops become expensive motion.</p>
+<h2 id="where-loops-fail">Where Loops Fail</h2>
+<p>Loops fail when the organization confuses repetition with reliability.</p>
+<p>Running an agent again and again does not create quality by itself.</p>
+<p>A bad loop can multiply ambiguity, produce more work for reviewers, consume tokens, overwrite useful state, or move faster than governance can absorb.</p>
+<p>Common failure patterns include:</p>
+<ul>
+<li>Vague goals</li>
+<li>No written state</li>
+<li>No acceptance contract</li>
+<li>No automated verification</li>
+<li>No stop condition</li>
+<li>No review gate for irreversible actions</li>
+<li>No trace of what the agent tried</li>
+<li>No distinction between task execution and business judgment</li>
+</ul>
+<p>The dangerous version of agentic AI is not the system that fails visibly.</p>
+<p>The dangerous version is the system that continues confidently without knowing it is wrong.</p>
+<p>That is why loop design is not a technical detail.</p>
+<p>It is a governance discipline.</p>
+<h2 id="the-enterprise-shift-from-prompting-to-operating-rhythm">The Enterprise Shift: From Prompting To Operating Rhythm</h2>
+<p>The real shift is not from humans to agents.</p>
+<p>It is from manual prompting to designed operating rhythm.</p>
+<p>A strong loop encodes how work should move:</p>
+<ul>
+<li>What intent is being served</li>
+<li>Where work is found</li>
+<li>Which context must be loaded</li>
+<li>What action is allowed</li>
+<li>How output is checked</li>
+<li>Where state is written</li>
+<li>What evidence is retained</li>
+<li>When the loop retries</li>
+<li>When it stops</li>
+<li>When it escalates</li>
+</ul>
+<p>This is why loops belong inside the operating model, not only inside the tool stack.</p>
+<p>If the loop is designed only by the tool user, it may improve local productivity. If it is designed as part of the operating model, it can improve enterprise capability.</p>
+<p>That distinction matters.</p>
+<h2 id="the-networkgain-view">The NetworkGain View</h2>
+<p>NetworkGain’s view is straightforward.</p>
+<p>Loops are not autonomy.</p>
+<p>Loops are execution architecture.</p>
+<p>The point is not to remove humans from work. The point is to remove humans from repetitive control tasks while preserving human accountability for judgment, direction, and consequence.</p>
+<p>This requires the same disciplines that govern serious transformation:</p>
+<p><strong>Clarity</strong> on the business intent.</p>
+<p><strong>Leadership</strong> on which decisions remain human.</p>
+<p><strong>Execution</strong> through bounded agentic workflows.</p>
+<p><strong>Accountability</strong> through traces, evidence, and stop rules.</p>
+<p><strong>Results</strong> measured through operating and market feedback.</p>
+<p>In engineering terms, this is also where TRACE becomes critical: trustworthy, repeatable, agentic, collaborative engineering.</p>
+<p>Agent Native Engineering gives the broader industry language for this shift. EnWithAI and CrewPE give it an execution pathway: from AI intent to governed workflows, and from product intent to validated delivery.</p>
+<p>A loop should be trustworthy because its evidence can be inspected.</p>
+<p>It should be repeatable because the same class of work can run again.</p>
+<p>It should be agentic because the system can decide the next bounded action.</p>
+<p>It should be collaborative because humans remain in the governance and feedback loops.</p>
+<p>It should be engineering because rigor still matters.</p>
+<h2 id="what-leaders-should-do-next">What Leaders Should Do Next</h2>
+<p>Before asking where agents can run autonomously, leaders should ask a more practical set of questions:</p>
+<ul>
+<li>Which work repeats every day, week, or release cycle?</li>
+<li>Which outputs can be verified by tests, rules, data, or evidence?</li>
+<li>Where are humans currently acting as the repetitive control layer?</li>
+<li>What state must be written down so the loop can resume safely?</li>
+<li>Which actions are safe to automate, and which require approval?</li>
+<li>What is the stop condition?</li>
+<li>What is the escalation path?</li>
+<li>How will the organization learn from the traces?</li>
+</ul>
+<p>These questions move the conversation from AI excitement to operating design.</p>
+<p>That is where the value is.</p>
+<p>The future of agentic AI will not be determined by which organization gives agents the most freedom.</p>
+<p>It will be determined by which organization designs the best loops.</p>
+<p>Freedom without structure creates noise.</p>
+<p>Structure without learning creates bureaucracy.</p>
+<p>The advantage sits between the two: governed loops that execute, verify, learn, and improve without losing accountability.</p>  </div>  <section class="article-share" aria-labelledby="article-share-title"> <div> <p class="eyebrow">Share the decision</p> <h2 id="article-share-title">Forward the perspective. Start the discussion.</h2>  </div> <div class="article-share-actions"> <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fperspectives.networkgain.com%2Fperspectives%2Floops-are-execution-architecture-not-autonomy%2F" target="_blank" rel="noopener noreferrer">Share on LinkedIn</a> <a class="button secondary" href="mailto:?subject=Loops%20Are%20Not%20Autonomy.%20They%20Are%20Execution%20Architecture.&#38;body=I%20thought%20this%20NetworkGain%20Perspective%20was%20worth%20discussing%3A%20https%3A%2F%2Fperspectives.networkgain.com%2Fperspectives%2Floops-are-execution-architecture-not-autonomy%2F">Forward by email</a> <button class="button secondary copy-link" type="button" data-share-url="https://perspectives.networkgain.com/perspectives/loops-are-execution-architecture-not-autonomy/">Copy link</button> </div> </section> <div class="article-footer-cta"> <p class="eyebrow">From perspective to outcome</p> <h2 class="entry-title">Bring this view into an operating conversation</h2> <p class="entry-description">
+If this issue is active in your leadership agenda, NetworkGain can help frame the
+              outcome, pressure-test the operating assumptions, and shape the execution path.
+</p> <div class="cta-row"> <a class="button" href="https://www.networkgain.com/contact">Discuss this perspective</a> <a class="button secondary" href="https://www.networkgain.com/#outcomes-office">Bring Us an Outcome</a> </div> </div> <section class="related-reading" aria-labelledby="related-reading-title"> <p class="eyebrow">Related reading</p> <h2 id="related-reading-title">More from this decision frame</h2> <div class="related-grid"> <a class="related-card" href="/perspectives/rewiring-software-delivery-for-the-agentic-era/"> <span>AI &amp; Productivity</span> <strong>Rewiring Software Delivery for the Agentic Era Requires Trust, Not Just Velocity</strong> <small>June 5, 2026 · 7 min read</small> </a><a class="related-card" href="/perspectives/ai-valuations-need-operating-discipline/"> <span>AI &amp; Productivity</span> <strong>AI Valuations Need Operating Discipline</strong> <small>July 14, 2026 · 8 min read</small> </a><a class="related-card" href="/perspectives/precision-wins-speed-alone-doesnt-enterprise-ai-engineering/"> <span>AI &amp; Productivity</span> <strong>Precision Wins. Speed Alone Doesn&#39;t.</strong> <small>July 13, 2026 · 5 min read</small> </a> </div> </section> <nav class="prev-next" aria-label="Adjacent perspectives"> <div> <a href="/perspectives/from-msme-problems-to-manufacturing-intelligence/"> <span class="kicker">Previous</span> <strong>From MSME Problems to Manufacturing Intelligence</strong> </a> </div> <div> <a href="/perspectives/verification-is-the-new-bottleneck-in-ai-native-product-engineering/"> <span class="kicker">Next</span> <strong>Verification Is the New Bottleneck in AI-Native Product Engineering</strong> </a> </div> </nav> </div> <aside class="article-aside" aria-label="Perspective details"> <dl> <div> <dt>Author</dt> <dd>R Koushik, NetworkGain Consulting</dd> </div> <div> <dt>Published</dt> <dd>July 1, 2026</dd> </div> <div> <dt>Updated</dt> <dd>July 1, 2026</dd> </div>   <div> <dt>Category</dt> <dd><a href="/categories/perspective/">Perspective</a></dd> </div> <div> <dt>Outcome mission</dt> <dd><a href="/themes/ai-productivity/">AI &amp; Productivity</a></dd> </div> <div> <dt>Tags</dt> <dd class="tag-list"> <a class="tag" href="/tags/agentic-ai/">Agentic AI</a><a class="tag" href="/tags/loop-engineering/">Loop Engineering</a><a class="tag" href="/tags/execution-governance/">Execution Governance</a><a class="tag" href="/tags/ai-native-delivery/">AI-Native Delivery</a><a class="tag" href="/tags/enterprise-ai/">Enterprise AI</a><a class="tag" href="/tags/trace/">TRACE</a> </dd> </div> </dl> </aside> </div> </div> </article> <script type="module">document.querySelectorAll("[data-share-url]").forEach(t=>{t.addEventListener("click",async()=>{const e=t.dataset.shareUrl;if(e)try{await navigator.clipboard.writeText(e);const r=t.textContent;t.textContent="Link copied",window.setTimeout(()=>{t.textContent=r},1800)}catch{window.prompt("Copy this link",e)}})});</script>  </main> <footer class="site-footer"> <div class="footer-inner"> <div class="footer-grid"> <div> <div class="footer-brand"> <span class="footer-logo-frame"> <img src="/images/logo/networkgain-logo-footer-dark.png" alt="NetworkGain Consulting" width="280" height="90"> </span> <div> <p>From strategic intent to measurable outcomes.</p> </div> </div> <p class="footer-statement">
+The CXO Outcomes Office™ for leaders who need outcome clarity,
+                operating architecture, specialist orchestration, governance cadence,
+                and measurable progress.
+</p> <div class="footer-contact"> <a href="mailto:info@networkgain.com">info@networkgain.com</a> <a href="tel:+914428470066" aria-label="Call NetworkGain">+91 44 2847 00 66 / 99</a> <span>Chennai, Tamil Nadu, India</span> </div> </div> <div> <h2 class="footer-heading">Outcomes</h2> <div class="footer-links"> <a href="https://www.networkgain.com/outcome-missions/#growth-revenue">Growth &amp; Revenue</a><a href="https://www.networkgain.com/outcome-missions/#ai-productivity">AI &amp; Productivity</a><a href="https://www.networkgain.com/outcome-missions/#operating-performance">Operating Performance</a><a href="https://www.networkgain.com/outcome-missions/#technology-modernization">Technology Modernization</a><a href="https://www.networkgain.com/outcome-missions/#risk-resilience">Risk &amp; Resilience</a><a href="https://www.networkgain.com/outcome-missions/#strategic-transformation">Strategic Transformation</a> </div> </div> <div> <h2 class="footer-heading">Company</h2> <div class="footer-links"> <a href="https://www.networkgain.com/outcomes-office">Outcomes Office</a><a href="https://www.networkgain.com/outcome-missions">Outcome Missions</a><a href="https://www.networkgain.com/how-we-work">How We Work</a><a href="https://www.networkgain.com/evidence">Evidence</a><a href="https://www.networkgain.com/ecosystem">Ecosystem</a><a href="https://www.networkgain.com/insights">Insights</a><a href="https://www.networkgain.com/ask-ai">Ask AI about NetworkGain</a><a href="https://www.networkgain.com/contact">Contact</a> </div> </div> <div> <h2 class="footer-heading">Ecosystem</h2> <div class="footer-links"> <a href="https://www.networkgain.com/ecosystem">Kriti Labs</a><a href="https://www.networkgain.com/ecosystem">Yashmia Consulting and Technologies</a><a href="https://www.networkgain.com/ecosystem">EnWithAI Technologies</a><a href="https://www.networkgain.com/ecosystem">3nayan</a><a href="https://www.networkgain.com/ecosystem">AxIncha</a><a href="https://www.networkgain.com/ecosystem">Nuvteq</a><a href="https://www.networkgain.com/ecosystem">A.K. Mylsamy &amp; Associates LLP</a> </div> <div class="footer-social"> <h3 class="sr-only">NetworkGain social media</h3> <div class="social-links"> <a href="https://www.linkedin.com/company/networkgain/" target="_blank" rel="noopener noreferrer" aria-label="Follow NetworkGain on LinkedIn" title="LinkedIn"> in </a><a href="https://www.instagram.com/network.gain/" target="_blank" rel="noopener noreferrer" aria-label="Follow NetworkGain on Instagram" title="Instagram"> ◎ </a><a href="https://twitter.com/InfinitePartner" target="_blank" rel="noopener noreferrer" aria-label="Follow NetworkGain on Twitter" title="Twitter"> X </a><a href="https://www.facebook.com/NetworkGain" target="_blank" rel="noopener noreferrer" aria-label="Follow NetworkGain on Facebook" title="Facebook"> f </a> </div> <a class="footer-ai-link" href="https://www.networkgain.com/ask-ai">
+Ask AI about NetworkGain →
+</a> </div> </div> </div> <p class="footer-built">
+Designed and built in India by <a href="https://www.enwithai.com/">EnWithAI</a>  · CLEAR™ · <a href="https://www.crewpe.ai/">CrewPE</a> </p> <div class="footer-bottom"> <div class="footer-legal"> <p>© 2026 NetworkGain Consulting. All rights reserved.</p> <span aria-hidden="true">/</span> <a href="https://www.networkgain.com/privacy-policy">Privacy Policy</a> <span aria-hidden="true">/</span> <a href="https://www.networkgain.com/terms-and-conditions">Terms and Conditions</a> </div> <p>
+Selected visual backgrounds use Unsplash photography and Magnific / Freepik abstract assets.
+</p> </div> </div> </footer> </div> </body></html>
