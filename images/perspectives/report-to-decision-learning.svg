@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">From report conversation to decision learning</title>
+  <desc id="description">A six-stage flow from report to question, governed evidence, decision, outcome, and organisational learning, with four evidence controls.</desc>
+  <rect width="1600" height="900" fill="#f6f7f8"/>
+  <path d="M0 0h18v900H0z" fill="#d71920"/>
+  <g font-family="Comfortaa, Manrope, Arial, sans-serif">
+    <text x="104" y="116" fill="#d71920" font-size="22" font-weight="700" letter-spacing="3">NETWORKGAIN PERSPECTIVE</text>
+    <text x="104" y="178" fill="#17191d" font-size="48" font-weight="700">From report conversation</text>
+    <text x="104" y="236" fill="#17191d" font-size="48" font-weight="700">to decision learning</text>
+    <text x="104" y="282" fill="#636973" font-size="22">The report starts the enquiry. Governed evidence supports the decision.</text>
+
+    <g transform="translate(104 370)">
+      <g fill="#ffffff" stroke="#c7cbd1" stroke-width="2">
+        <rect x="0" y="0" width="180" height="112" rx="18"/>
+        <rect x="226" y="0" width="180" height="112" rx="18"/>
+        <rect x="452" y="0" width="270" height="112" rx="18" stroke="#d71920" stroke-width="3"/>
+        <rect x="768" y="0" width="180" height="112" rx="18"/>
+        <rect x="994" y="0" width="180" height="112" rx="18"/>
+        <rect x="1220" y="0" width="190" height="112" rx="18"/>
+      </g>
+      <g fill="#17191d" font-size="22" font-weight="700" text-anchor="middle">
+        <text x="90" y="66">Report</text>
+        <text x="316" y="66">Question</text>
+        <text x="587" y="54">Governed</text>
+        <text x="587" y="82">evidence</text>
+        <text x="858" y="66">Decision</text>
+        <text x="1084" y="66">Outcome</text>
+        <text x="1315" y="53">Organisational</text>
+        <text x="1315" y="81">learning</text>
+      </g>
+      <g stroke="#2f6fed" stroke-width="3" fill="none">
+        <path d="M180 56h36"/><path d="m210 48 8 8-8 8"/>
+        <path d="M406 56h36"/><path d="m436 48 8 8-8 8"/>
+        <path d="M722 56h36"/><path d="m752 48 8 8-8 8"/>
+        <path d="M948 56h36"/><path d="m978 48 8 8-8 8"/>
+        <path d="M1174 56h36"/><path d="m1204 48 8 8-8 8"/>
+      </g>
+
+      <path d="M587 112v64" stroke="#d71920" stroke-width="3"/>
+      <g fill="#ffffff" stroke="#d8dbe0" stroke-width="2">
+        <rect x="388" y="176" width="184" height="72" rx="14"/>
+        <rect x="602" y="176" width="184" height="72" rx="14"/>
+        <rect x="388" y="270" width="184" height="72" rx="14"/>
+        <rect x="602" y="270" width="184" height="72" rx="14"/>
+      </g>
+      <g fill="#4e545d" font-size="17" font-weight="600" text-anchor="middle">
+        <text x="480" y="219">Semantic definitions</text>
+        <text x="694" y="219">Analytical services</text>
+        <text x="480" y="313">Lineage + freshness</text>
+        <text x="694" y="313">Organisational context</text>
+      </g>
+      <path d="M587 176h-107v-12M587 176h107v-12M587 176v82H480v12M587 176v82h107v12" fill="none" stroke="#b8bdc5" stroke-width="2"/>
+    </g>
+
+    <g transform="translate(104 785)">
+      <text x="0" y="0" fill="#17191d" font-size="18" font-weight="700">REPORTED FACT</text>
+      <circle cx="190" cy="-6" r="4" fill="#d71920"/>
+      <text x="212" y="0" fill="#17191d" font-size="18" font-weight="700">CALCULATED FACT</text>
+      <circle cx="421" cy="-6" r="4" fill="#d71920"/>
+      <text x="443" y="0" fill="#17191d" font-size="18" font-weight="700">INFERENCE</text>
+      <circle cx="566" cy="-6" r="4" fill="#d71920"/>
+      <text x="588" y="0" fill="#17191d" font-size="18" font-weight="700">HYPOTHESIS</text>
+      <circle cx="733" cy="-6" r="4" fill="#d71920"/>
+      <text x="755" y="0" fill="#17191d" font-size="18" font-weight="700">UNKNOWN</text>
+    </g>
+    <text x="1494" y="834" fill="#737983" font-size="16" text-anchor="end">Evidence status should travel with every material claim.</text>
+  </g>
+</svg>
