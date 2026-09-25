@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">When intelligence gets cheaper, engineering needs a better system</title>
+  <desc id="desc">A three-layer visual showing task-fit AI models working inside the CrewPE engineering harness to create faster, controlled and measurable client outcomes.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfaf7"/>
+      <stop offset="1" stop-color="#f1f3f6"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#16191d"/>
+      <stop offset="1" stop-color="#2d333b"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#111820" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .sans { font-family: Inter, Manrope, Arial, sans-serif; }
+      .serif { font-family: Georgia, 'Times New Roman', serif; }
+      .caps { letter-spacing: 2.4px; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#paper)"/>
+  <circle cx="1450" cy="45" r="270" fill="#e9eef5" opacity="0.70"/>
+  <circle cx="80" cy="880" r="260" fill="#f6eae8" opacity="0.72"/>
+
+  <g class="sans">
+    <text x="90" y="76" font-size="18" font-weight="700" fill="#b3261e" class="caps">NETWORKGAIN PERSPECTIVE</text>
+    <text x="90" y="144" font-size="52" font-weight="650" fill="#15181c">When intelligence gets cheaper,</text>
+    <text x="90" y="204" font-size="52" font-weight="650" fill="#15181c">engineering needs a better system.</text>
+    <text x="90" y="248" font-size="22" fill="#5b6169">Task-fit models create possibility. The engineering harness turns it into accountable value.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="300" width="1420" height="164" rx="22" fill="#ffffff"/>
+  </g>
+  <g class="sans">
+    <text x="125" y="339" font-size="15" font-weight="700" fill="#68717d" class="caps">01  TASK-FIT INTELLIGENCE</text>
+    <text x="125" y="380" font-size="25" font-weight="650" fill="#171b20">Use each form of intelligence for the job it is best equipped to do.</text>
+
+    <rect x="125" y="403" width="360" height="38" rx="19" fill="#f6e9e7"/>
+    <circle cx="150" cy="422" r="8" fill="#b3261e"/>
+    <text x="170" y="429" font-size="17" font-weight="600" fill="#282d33">Coding models · understand and build</text>
+
+    <rect x="510" y="403" width="402" height="38" rx="19" fill="#e8f0f8"/>
+    <circle cx="535" cy="422" r="8" fill="#3b6f9d"/>
+    <text x="555" y="429" font-size="17" font-weight="600" fill="#282d33">Decision models · choose, score and route</text>
+
+    <rect x="937" y="403" width="344" height="38" rx="19" fill="#edf0ec"/>
+    <circle cx="962" cy="422" r="8" fill="#5c7158"/>
+    <text x="982" y="429" font-size="17" font-weight="600" fill="#282d33">Deterministic tools · enforce and verify</text>
+
+    <rect x="1306" y="403" width="169" height="38" rx="19" fill="#f1eee8"/>
+    <circle cx="1331" cy="422" r="8" fill="#8b6e45"/>
+    <text x="1351" y="429" font-size="17" font-weight="600" fill="#282d33">People · decide</text>
+  </g>
+
+  <path d="M800 464 V500" stroke="#aeb5bd" stroke-width="3"/>
+  <path d="M790 492 L800 504 L810 492" fill="none" stroke="#aeb5bd" stroke-width="3"/>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="505" width="1420" height="218" rx="22" fill="url(#ink)"/>
+  </g>
+  <g class="sans">
+    <text x="125" y="546" font-size="15" font-weight="700" fill="#f09a91" class="caps">02  THE CREWPE ENGINEERING HARNESS</text>
+    <text x="125" y="587" font-size="26" font-weight="650" fill="#ffffff">Keep every AI action connected to intent, evidence and accountability.</text>
+
+    <g fill="#ffffff" opacity="0.98">
+      <rect x="125" y="621" width="195" height="64" rx="12"/>
+      <rect x="337" y="621" width="195" height="64" rx="12"/>
+      <rect x="549" y="621" width="195" height="64" rx="12"/>
+      <rect x="761" y="621" width="195" height="64" rx="12"/>
+      <rect x="973" y="621" width="195" height="64" rx="12"/>
+      <rect x="1185" y="621" width="290" height="64" rx="12"/>
+    </g>
+    <g font-size="17" font-weight="650" fill="#20252b" text-anchor="middle">
+      <text x="222" y="648">Intent &amp;</text><text x="222" y="671">specification</text>
+      <text x="434" y="648">Repository &amp;</text><text x="434" y="671">context</text>
+      <text x="646" y="648">Checks &amp;</text><text x="646" y="671">evaluation</text>
+      <text x="858" y="648">Review &amp;</text><text x="858" y="671">escalation</text>
+      <text x="1070" y="648">Decision</text><text x="1070" y="671">receipts</text>
+      <text x="1330" y="648">Human approval &amp;</text><text x="1330" y="671">continuous learning</text>
+    </g>
+    <line x1="320" y1="653" x2="337" y2="653" stroke="#f09a91" stroke-width="4"/>
+    <line x1="532" y1="653" x2="549" y2="653" stroke="#f09a91" stroke-width="4"/>
+    <line x1="744" y1="653" x2="761" y2="653" stroke="#f09a91" stroke-width="4"/>
+    <line x1="956" y1="653" x2="973" y2="653" stroke="#f09a91" stroke-width="4"/>
+    <line x1="1168" y1="653" x2="1185" y2="653" stroke="#f09a91" stroke-width="4"/>
+  </g>
+
+  <path d="M800 723 V759" stroke="#aeb5bd" stroke-width="3"/>
+  <path d="M790 751 L800 763 L810 751" fill="none" stroke="#aeb5bd" stroke-width="3"/>
+
+  <g class="sans">
+    <text x="90" y="806" font-size="15" font-weight="700" fill="#68717d" class="caps">03  CLIENT VALUE</text>
+    <g font-size="24" font-weight="650" fill="#1b2025">
+      <text x="90" y="849">Faster learning</text>
+      <text x="388" y="849">Lower decision cost</text>
+      <text x="744" y="849">Visible control</text>
+      <text x="1045" y="849">Measurable outcomes</text>
+    </g>
+    <g fill="#b3261e">
+      <circle cx="337" cy="842" r="4"/>
+      <circle cx="693" cy="842" r="4"/>
+      <circle cx="994" cy="842" r="4"/>
+    </g>
+    <text x="1510" y="884" text-anchor="end" font-size="13" fill="#707780">Conceptual architecture · not a statement of current Jev integration</text>
+  </g>
+</svg>
