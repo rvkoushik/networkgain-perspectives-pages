@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The AI price shock may arrive without a price increase</title>
+  <desc id="desc">A NetworkGain decision framework showing capital-intensive AI infrastructure, three possible pricing futures, the enterprise cost equation, and the capabilities CTOs need to build resilience.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfaf7"/>
+      <stop offset="1" stop-color="#f1f3f6"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171b20"/>
+      <stop offset="1" stop-color="#29313a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#111820" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .sans { font-family: Inter, Manrope, Arial, sans-serif; }
+      .caps { letter-spacing: 2.2px; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#paper)"/>
+  <circle cx="1450" cy="30" r="260" fill="#e9eef5" opacity="0.74"/>
+  <circle cx="20" cy="900" r="270" fill="#f6e9e7" opacity="0.78"/>
+
+  <g class="sans">
+    <text x="90" y="72" font-size="18" font-weight="700" fill="#b3261e" class="caps">NETWORKGAIN PERSPECTIVE</text>
+    <text x="90" y="138" font-size="50" font-weight="650" fill="#15181c">The AI price shock may arrive</text>
+    <text x="90" y="196" font-size="50" font-weight="650" fill="#15181c">without a price increase.</text>
+    <text x="90" y="239" font-size="21" fill="#5b6169">The financing web is a resilience warning, not a reliable forecast of the next rate card.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="284" width="1420" height="114" rx="20" fill="url(#dark)"/>
+  </g>
+  <g class="sans">
+    <text x="122" y="320" font-size="14" font-weight="700" fill="#f09a91" class="caps">THE CAPITAL LAYER</text>
+    <text x="122" y="360" font-size="24" font-weight="650" fill="#ffffff">Chips</text>
+    <circle cx="229" cy="352" r="4" fill="#f09a91"/>
+    <text x="252" y="360" font-size="24" font-weight="650" fill="#ffffff">Power</text>
+    <circle cx="363" cy="352" r="4" fill="#f09a91"/>
+    <text x="386" y="360" font-size="24" font-weight="650" fill="#ffffff">Data centres</text>
+    <circle cx="574" cy="352" r="4" fill="#f09a91"/>
+    <text x="597" y="360" font-size="24" font-weight="650" fill="#ffffff">Cloud commitments</text>
+    <circle cx="830" cy="352" r="4" fill="#f09a91"/>
+    <text x="853" y="360" font-size="24" font-weight="650" fill="#ffffff">Debt</text>
+    <circle cx="946" cy="352" r="4" fill="#f09a91"/>
+    <text x="969" y="360" font-size="24" font-weight="650" fill="#ffffff">Equity</text>
+    <text x="1478" y="359" text-anchor="end" font-size="17" fill="#cdd3da">Common dependency: sustained demand</text>
+  </g>
+
+  <path d="M800 398 V432" stroke="#aeb5bd" stroke-width="3"/>
+  <path d="M790 424 L800 436 L810 424" fill="none" stroke="#aeb5bd" stroke-width="3"/>
+
+  <g class="sans">
+    <text x="90" y="468" font-size="14" font-weight="700" fill="#68717d" class="caps">THREE PLAUSIBLE PRICE FUTURES</text>
+  </g>
+  <g filter="url(#shadow)" class="sans">
+    <rect x="90" y="492" width="440" height="154" rx="18" fill="#ffffff"/>
+    <rect x="580" y="492" width="440" height="154" rx="18" fill="#ffffff"/>
+    <rect x="1070" y="492" width="440" height="154" rx="18" fill="#ffffff"/>
+  </g>
+  <g class="sans">
+    <circle cx="126" cy="529" r="14" fill="#5c7158"/>
+    <text x="158" y="537" font-size="23" font-weight="700" fill="#1b2025">Efficiency dividend</text>
+    <text x="126" y="574" font-size="18" fill="#4e555e">Unit prices fall. Adoption and</text>
+    <text x="126" y="600" font-size="18" fill="#4e555e">agentic consumption rise faster.</text>
+    <text x="126" y="628" font-size="16" font-weight="700" fill="#5c7158">CHEAPER UNIT · LARGER BILL</text>
+
+    <circle cx="616" cy="529" r="14" fill="#3b6f9d"/>
+    <text x="648" y="537" font-size="23" font-weight="700" fill="#1b2025">Tiered intelligence</text>
+    <text x="616" y="574" font-size="18" fill="#4e555e">Commodity models stay cheap.</text>
+    <text x="616" y="600" font-size="18" fill="#4e555e">Frontier capability carries a premium.</text>
+    <text x="616" y="628" font-size="16" font-weight="700" fill="#3b6f9d">CHEAP BASE · PREMIUM EDGE</text>
+
+    <circle cx="1106" cy="529" r="14" fill="#b3261e"/>
+    <text x="1138" y="537" font-size="23" font-weight="700" fill="#1b2025">Capital shock</text>
+    <text x="1106" y="574" font-size="18" fill="#4e555e">Scarcity, financing stress, or policy</text>
+    <text x="1106" y="600" font-size="18" fill="#4e555e">forces repricing or capacity limits.</text>
+    <text x="1106" y="628" font-size="16" font-weight="700" fill="#b3261e">HIGHER PRICE · RATIONED ACCESS</text>
+  </g>
+
+  <g class="sans">
+    <text x="90" y="700" font-size="14" font-weight="700" fill="#68717d" class="caps">THE ENTERPRISE COST EQUATION</text>
+    <text x="90" y="742" font-size="25" font-weight="650" fill="#181c21">Unit price</text>
+    <text x="228" y="742" font-size="25" fill="#b3261e">×</text>
+    <text x="260" y="742" font-size="25" font-weight="650" fill="#181c21">usage volume</text>
+    <text x="436" y="742" font-size="25" fill="#b3261e">×</text>
+    <text x="468" y="742" font-size="25" font-weight="650" fill="#181c21">model mix</text>
+    <text x="610" y="742" font-size="25" fill="#b3261e">+</text>
+    <text x="642" y="742" font-size="25" font-weight="650" fill="#181c21">tools &amp; data</text>
+    <text x="804" y="742" font-size="25" fill="#b3261e">+</text>
+    <text x="836" y="742" font-size="25" font-weight="650" fill="#181c21">rework</text>
+    <text x="945" y="742" font-size="25" fill="#b3261e">+</text>
+    <text x="977" y="742" font-size="25" font-weight="650" fill="#181c21">switching friction</text>
+    <text x="1197" y="742" font-size="25" fill="#b3261e">=</text>
+    <text x="1230" y="742" font-size="25" font-weight="750" fill="#b3261e">cost per outcome</text>
+  </g>
+
+  <rect x="90" y="786" width="1420" height="72" rx="16" fill="#ebeef1"/>
+  <g class="sans">
+    <text x="122" y="817" font-size="14" font-weight="700" fill="#68717d" class="caps">THE CTO RESPONSE</text>
+    <text x="122" y="843" font-size="18" font-weight="650" fill="#22272d">Observe cost</text>
+    <circle cx="276" cy="836" r="4" fill="#b3261e"/>
+    <text x="299" y="843" font-size="18" font-weight="650" fill="#22272d">Route by task</text>
+    <circle cx="453" cy="836" r="4" fill="#b3261e"/>
+    <text x="476" y="843" font-size="18" font-weight="650" fill="#22272d">Test substitutes</text>
+    <circle cx="657" cy="836" r="4" fill="#b3261e"/>
+    <text x="680" y="843" font-size="18" font-weight="650" fill="#22272d">Negotiate exit rights</text>
+    <circle cx="914" cy="836" r="4" fill="#b3261e"/>
+    <text x="937" y="843" font-size="18" font-weight="650" fill="#22272d">Preserve evidence</text>
+    <circle cx="1139" cy="836" r="4" fill="#b3261e"/>
+    <text x="1162" y="843" font-size="18" font-weight="650" fill="#22272d">Measure value</text>
+    <text x="1510" y="888" text-anchor="end" font-size="13" fill="#707780">Prepare for repricing. Do not pretend to predict it.</text>
+  </g>
+</svg>
