@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Agent-scale source control: from parallel change to accountable release</title>
+  <desc id="desc">A four-stage diagram showing parallel human and agent changes flowing through evidence, decision gates, and a release record.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071b2e"/><stop offset="1" stop-color="#103b53"/></linearGradient>
+    <style>
+      .label{font-family:Arial,sans-serif;fill:#d8edf4}.small{font-size:19px}.head{font-size:27px;font-weight:700}.title{font-size:20px;font-weight:700;fill:#091d2c}.body{font-size:16px;fill:#254458}.note{font-size:15px;fill:#b4d4df}.num{font-size:18px;font-weight:700;fill:#fff}.line{stroke:#59d0c5;stroke-width:4;fill:none}.dot{fill:#59d0c5}.card{fill:#f3f8f8}.gate{fill:#ffca74}.pill{fill:#1d6d7b}
+    </style>
+  </defs>
+  <rect width="1200" height="680" fill="url(#bg)"/>
+  <text x="60" y="65" class="label head">Agent-scale source control is an execution-control system</text>
+  <text x="60" y="98" class="label small">The scarce resource is not the next generated change. It is the evidence that lets an accountable owner accept it.</text>
+  <path class="line" d="M210 335H320M530 335H640M850 335H960"/>
+  <circle class="dot" cx="210" cy="335" r="8"/><circle class="dot" cx="320" cy="335" r="8"/><circle class="dot" cx="530" cy="335" r="8"/><circle class="dot" cx="640" cy="335" r="8"/><circle class="dot" cx="850" cy="335" r="8"/><circle class="dot" cx="960" cy="335" r="8"/>
+  <g transform="translate(60 175)"><rect class="card" width="150" height="320" rx="18"/><circle class="pill" cx="32" cy="35" r="18"/><text class="num" x="26" y="41">1</text><text class="title" x="24" y="87">Parallel</text><text class="title" x="24" y="111">change</text><text class="body" x="24" y="155">Human and agent</text><text class="body" x="24" y="179">work branches;</text><text class="body" x="24" y="203">context and intent</text><text class="body" x="24" y="227">must travel with</text><text class="body" x="24" y="251">the change.</text></g>
+  <g transform="translate(320 175)"><rect class="card" width="210" height="320" rx="18"/><circle class="pill" cx="32" cy="35" r="18"/><text class="num" x="26" y="41">2</text><text class="title" x="24" y="87">Evidence</text><text class="title" x="24" y="111">assembly</text><text class="body" x="24" y="155">Tests, policy checks,</text><text class="body" x="24" y="179">security results,</text><text class="body" x="24" y="203">dependencies and</text><text class="body" x="24" y="227">review rationale are</text><text class="body" x="24" y="251">linked to the diff.</text></g>
+  <g transform="translate(640 175)"><rect class="gate" width="210" height="320" rx="18"/><circle class="pill" cx="32" cy="35" r="18"/><text class="num" x="26" y="41">3</text><text class="title" x="24" y="87">Decision</text><text class="title" x="24" y="111">gate</text><text class="body" x="24" y="155">Named owners accept</text><text class="body" x="24" y="179">or reject exceptions;</text><text class="body" x="24" y="203">agent confidence is</text><text class="body" x="24" y="227">input, not authority.</text></g>
+  <g transform="translate(960 175)"><rect class="card" width="180" height="320" rx="18"/><circle class="pill" cx="32" cy="35" r="18"/><text class="num" x="26" y="41">4</text><text class="title" x="24" y="87">Release</text><text class="title" x="24" y="111">record</text><text class="body" x="24" y="155">A traceable link</text><text class="body" x="24" y="179">from intent to</text><text class="body" x="24" y="203">version, approval</text><text class="body" x="24" y="227">and production</text><text class="body" x="24" y="251">outcome.</text></g>
+  <text x="60" y="600" class="note">Control objective: preserve speed in independent work while making every consequential merge explainable, reviewable and reversible.</text>
+  <text x="60" y="630" class="note">NetworkGain analysis; diagram is original and illustrative, not a description of any vendor product.</text>
+</svg>
