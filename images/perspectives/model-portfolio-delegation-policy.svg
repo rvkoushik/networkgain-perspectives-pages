@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Model portfolio delegation policy</title>
+  <desc id="desc">A three-stage flow: classify the work, route it to an execution or high-assurance reasoning tier, then pass material decisions through accountable acceptance.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#091425"/><stop offset="1" stop-color="#12384a"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#41d8c5"/><stop offset="1" stop-color="#81a7ff"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#020712" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g fill="none" stroke="#7ea2b7" stroke-width="2" opacity=".42"><path d="M0 120H1200M0 270H1200M0 420H1200M0 570H1200"/><path d="M150 0V675M450 0V675M750 0V675M1050 0V675"/></g>
+  <text x="70" y="80" fill="#eaf7ff" font-family="Arial, sans-serif" font-size="31" font-weight="700">MODEL PORTFOLIO = DELEGATION POLICY</text>
+  <text x="70" y="113" fill="#a8c6d6" font-family="Arial, sans-serif" font-size="18">Route by consequence, evidence and authority—not benchmark rank alone.</text>
+  <g filter="url(#shadow)">
+    <rect x="70" y="190" width="290" height="310" rx="20" fill="#10263a" stroke="#4b738d"/>
+    <text x="105" y="244" fill="#41d8c5" font-family="Arial, sans-serif" font-size="17" font-weight="700">1 — CLASSIFY THE WORK</text>
+    <text x="105" y="292" fill="#f1f8fc" font-family="Arial, sans-serif" font-size="25" font-weight="700">Consequence</text>
+    <text x="105" y="327" fill="#c2d8e5" font-family="Arial, sans-serif" font-size="18">Reversibility</text>
+    <text x="105" y="361" fill="#c2d8e5" font-family="Arial, sans-serif" font-size="18">Data sensitivity</text>
+    <text x="105" y="395" fill="#c2d8e5" font-family="Arial, sans-serif" font-size="18">Required evidence</text>
+    <text x="105" y="451" fill="#8ab2c8" font-family="Arial, sans-serif" font-size="16">Before delegation</text>
+    <path d="M390 345H440" stroke="url(#accent)" stroke-width="6"/><path d="M435 333l22 12-22 12" fill="#81a7ff"/>
+    <rect x="470" y="155" width="335" height="175" rx="20" fill="#123f45" stroke="#41d8c5"/>
+    <text x="505" y="205" fill="#41d8c5" font-family="Arial, sans-serif" font-size="17" font-weight="700">2A — BOUNDED EXECUTION</text>
+    <text x="505" y="251" fill="#f1f8fc" font-family="Arial, sans-serif" font-size="24" font-weight="700">Fast / lower-cost tier</text>
+    <text x="505" y="286" fill="#c2e7e4" font-family="Arial, sans-serif" font-size="17">Reversible action · policy limits</text>
+    <path d="M390 345H440V432H470" stroke="url(#accent)" stroke-width="6" fill="none"/><path d="M465 420l22 12-22 12" fill="#81a7ff"/>
+    <rect x="470" y="390" width="335" height="175" rx="20" fill="#252d55" stroke="#81a7ff"/>
+    <text x="505" y="440" fill="#a9c4ff" font-family="Arial, sans-serif" font-size="17" font-weight="700">2B — ESCALATE</text>
+    <text x="505" y="486" fill="#f1f8fc" font-family="Arial, sans-serif" font-size="24" font-weight="700">High-assurance reasoning</text>
+    <text x="505" y="521" fill="#d1d9f5" font-family="Arial, sans-serif" font-size="17">Ambiguity · material impact · review</text>
+    <path d="M835 242H885V345H930" stroke="url(#accent)" stroke-width="6" fill="none"/><path d="M925 333l22 12-22 12" fill="#81a7ff"/>
+    <path d="M835 477H885V345H930" stroke="url(#accent)" stroke-width="6" fill="none"/><path d="M925 333l22 12-22 12" fill="#81a7ff"/>
+    <rect x="960" y="190" width="170" height="310" rx="20" fill="#17243b" stroke="#e3b36a"/>
+    <text x="990" y="244" fill="#f5c675" font-family="Arial, sans-serif" font-size="17" font-weight="700">3 — ACCEPT</text>
+    <text x="990" y="296" fill="#f1f8fc" font-family="Arial, sans-serif" font-size="21" font-weight="700">Named</text>
+    <text x="990" y="324" fill="#f1f8fc" font-family="Arial, sans-serif" font-size="21" font-weight="700">human role</text>
+    <text x="990" y="374" fill="#d9d3c4" font-family="Arial, sans-serif" font-size="16">Evidence reviewed</text>
+    <text x="990" y="405" fill="#d9d3c4" font-family="Arial, sans-serif" font-size="16">Residual risk owned</text>
+    <text x="990" y="450" fill="#d9d3c4" font-family="Arial, sans-serif" font-size="16">Decision recorded</text>
+  </g>
+  <text x="70" y="618" fill="#a8c6d6" font-family="Arial, sans-serif" font-size="16">NetworkGain analysis • Stronger models improve reasoning; they do not inherit organizational authority.</text>
+</svg>
