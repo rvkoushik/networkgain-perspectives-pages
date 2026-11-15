@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Accountable intelligence decision spine</title>
+  <desc id="desc">A hand-drawn NetworkGain whiteboard connecting intent, evidence, judgment, authority, action and consequence, with challenge and learning loops around an accountable decision.</desc>
+  <defs>
+    <filter id="paper" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="3" seed="17" result="noise"/><feColorMatrix in="noise" type="saturate" values="0" result="grey"/><feComponentTransfer in="grey" result="faint"><feFuncA type="table" tableValues="0 .045"/></feComponentTransfer><feBlend in="SourceGraphic" in2="faint" mode="multiply"/></filter>
+    <filter id="wobble" x="-8%" y="-8%" width="116%" height="116%"><feTurbulence type="fractalNoise" baseFrequency="0.014 0.045" numOctaves="1" seed="21" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="2.3" xChannelSelector="R" yChannelSelector="G"/></filter>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="strokeWidth"><path d="M1 1L10 6L1 11" fill="none" stroke="#2868c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <marker id="arrowGreen" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="strokeWidth"><path d="M1 1L10 6L1 11" fill="none" stroke="#18806b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <style>.hand{font-family:'Comic Sans MS','Bradley Hand','Segoe Print',cursive}.sans{font-family:Inter,Arial,sans-serif}.ink{fill:#17223b}.muted{fill:#5f6672}.blue{fill:#2868c7}.green{fill:#18806b}.red{fill:#bf4b3d}.sketch{fill:none;stroke:#24334d;stroke-linecap:round;stroke-linejoin:round}</style>
+  </defs>
+  <rect width="1600" height="900" fill="#fbfaf4"/><rect x="22" y="22" width="1556" height="856" rx="18" fill="none" stroke="#d8d4c6" stroke-width="2" filter="url(#wobble)"/><rect width="1600" height="900" fill="transparent" filter="url(#paper)"/>
+  <g class="sans"><text x="72" y="64" fill="#2868c7" font-size="17" font-weight="800" letter-spacing="2.2">NETWORKGAIN • WORKING WHITEBOARD</text><text x="1528" y="64" fill="#777d87" font-size="15" text-anchor="end">ACCOUNTABLE INTELLIGENCE</text></g>
+  <g class="hand"><text x="72" y="137" class="ink" font-size="58" font-weight="700">A decision you can stand behind</text><path d="M68 153C325 164 691 158 1008 150" fill="none" stroke="#2868c7" stroke-width="5" stroke-linecap="round" filter="url(#wobble)"/><text x="74" y="199" class="muted" font-size="27">Not because the model sounded certain—because the decision stayed connected.</text></g>
+  <path d="M62 230C430 224 820 237 1535 226" fill="none" stroke="#c9c6bb" stroke-width="2" stroke-dasharray="10 12" filter="url(#wobble)"/>
+
+  <!-- the decision spine -->
+  <path d="M130 424C324 407 500 427 678 414C854 402 1055 423 1240 409C1346 401 1431 409 1500 400" fill="none" stroke="#2868c7" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowBlue)" filter="url(#wobble)"/>
+  <g filter="url(#wobble)">
+    <path d="M80 327C145 310 232 312 300 329L292 438C221 431 143 442 82 429Z" fill="#fff0a8" stroke="#d2b13e" stroke-width="2"/>
+    <path d="M324 301C390 286 478 291 542 307L534 421C465 414 388 425 326 413Z" fill="#d9ecff" stroke="#79a7d8" stroke-width="2"/>
+    <path d="M572 329C638 313 726 316 791 332L782 445C713 438 635 449 574 437Z" fill="#f4dbe7" stroke="#c68da9" stroke-width="2"/>
+    <path d="M820 299C889 282 976 287 1041 304L1032 417C962 410 885 421 823 411Z" fill="#f8e0c7" stroke="#d49a62" stroke-width="2"/>
+    <path d="M1070 328C1137 311 1225 315 1289 331L1281 444C1212 437 1134 448 1073 436Z" fill="#dff4e8" stroke="#78b991" stroke-width="2"/>
+    <path d="M1317 294C1382 279 1472 283 1532 301L1524 417C1455 409 1381 420 1319 410Z" fill="#e9e3fa" stroke="#9e8acb" stroke-width="2"/>
+  </g>
+  <g class="hand ink" font-weight="700" text-anchor="middle">
+    <text x="190" y="365" font-size="27">INTENT</text><text x="190" y="399" font-size="18" font-weight="400">What outcome?</text>
+    <text x="432" y="340" font-size="27">EVIDENCE</text><text x="432" y="374" font-size="18" font-weight="400">What do we know?</text><text x="432" y="399" font-size="18" font-weight="400">What is missing?</text>
+    <text x="680" y="369" font-size="27">JUDGMENT</text><text x="680" y="403" font-size="18" font-weight="400">Why this choice?</text>
+    <text x="927" y="338" font-size="27">AUTHORITY</text><text x="927" y="372" font-size="18" font-weight="400">Who may decide?</text><text x="927" y="397" font-size="18" font-weight="400">Within what limit?</text>
+    <text x="1177" y="368" font-size="27">ACTION</text><text x="1177" y="402" font-size="18" font-weight="400">What happened?</text>
+    <text x="1424" y="333" font-size="27">CONSEQUENCE</text><text x="1424" y="367" font-size="18" font-weight="400">Who was affected?</text><text x="1424" y="392" font-size="18" font-weight="400">What did we learn?</text>
+  </g>
+
+  <!-- challenge loop -->
+  <path d="M1270 504C1090 560 870 572 664 559C477 548 318 527 188 484" fill="none" stroke="#bf4b3d" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round" marker-end="url(#arrowBlue)" filter="url(#wobble)"/>
+  <g class="hand"><text x="734" y="621" class="red" font-size="31" font-weight="700" text-anchor="middle">CHALLENGE: can someone question, stop or reverse it?</text><path d="M395 635C613 647 874 644 1078 632" fill="none" stroke="#bf4b3d" stroke-width="3" filter="url(#wobble)"/></g>
+
+  <!-- learning loop -->
+  <path d="M1425 463C1468 550 1456 682 1320 732C1082 821 498 807 234 718C128 682 105 584 146 490" fill="none" stroke="#18806b" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowGreen)" filter="url(#wobble)"/>
+  <g class="hand"><text x="793" y="749" class="green" font-size="31" font-weight="700" text-anchor="middle">LEARNING: did the outcome justify the decision?</text></g>
+
+  <!-- ownership note -->
+  <g filter="url(#wobble)"><path d="M445 253C613 238 969 242 1131 256L1124 292C934 302 632 299 451 288Z" fill="#fff4bf" stroke="#d0aa31" stroke-width="2"/></g>
+  <text x="790" y="282" class="hand ink" font-size="24" font-weight="700" text-anchor="middle">The model may inform the decision. The enterprise still owns the consequence.</text>
+
+  <text x="800" y="842" class="hand ink" font-size="25" font-weight="700" text-anchor="middle">Accountability is not one approval box. <tspan class="blue">It is the continuity of the whole decision.</tspan></text>
+  <text x="1518" y="844" class="sans muted" font-size="14" text-anchor="end">© NetworkGain Consulting Commons</text>
+</svg>
