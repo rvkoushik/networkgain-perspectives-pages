@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Data residency as a workflow decision</title>
+  <desc id="desc">A four-stage flow from data classification through project and region selection, runtime routing and evidence of actual processing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#091425"/><stop offset="1" stop-color="#203454"/></linearGradient>
+    <linearGradient id="line" x1="0" x2="1"><stop stop-color="#41d8c5"/><stop offset="1" stop-color="#81a7ff"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#020712" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g fill="none" stroke="#7ea2b7" stroke-width="2" opacity=".32"><path d="M0 120H1200M0 270H1200M0 420H1200M0 570H1200"/><path d="M150 0V675M450 0V675M750 0V675M1050 0V675"/></g>
+  <text x="70" y="80" fill="#eaf7ff" font-family="Arial, sans-serif" font-size="31" font-weight="700">DATA RESIDENCY IS A WORKFLOW DECISION</text>
+  <text x="70" y="113" fill="#a8c6d6" font-family="Arial, sans-serif" font-size="18">A supplier claim is useful. Runtime evidence is the control.</text>
+  <g filter="url(#shadow)">
+    <rect x="50" y="215" width="245" height="250" rx="20" fill="#10263a" stroke="#4b738d"/>
+    <text x="78" y="263" fill="#41d8c5" font-family="Arial, sans-serif" font-size="16" font-weight="700">1 — CLASSIFY</text>
+    <text x="78" y="311" fill="#f1f8fc" font-family="Arial, sans-serif" font-size="23" font-weight="700">Data and purpose</text>
+    <text x="78" y="347" fill="#c2d8e5" font-family="Arial, sans-serif" font-size="16">Inputs · tools · logs</text>
+    <text x="78" y="379" fill="#c2d8e5" font-family="Arial, sans-serif" font-size="16">Risk and owner</text>
+    <path d="M315 340H360" stroke="url(#line)" stroke-width="6"/><path d="M355 328l22 12-22 12" fill="#81a7ff"/>
+    <rect x="380" y="215" width="245" height="250" rx="20" fill="#123f45" stroke="#41d8c5"/>
+    <text x="408" y="263" fill="#41d8c5" font-family="Arial, sans-serif" font-size="16" font-weight="700">2 — SELECT</text>
+    <text x="408" y="311" fill="#f1f8fc" font-family="Arial, sans-serif" font-size="23" font-weight="700">Project boundary</text>
+    <text x="408" y="347" fill="#c2e7e4" font-family="Arial, sans-serif" font-size="16">Storage and processing</text>
+    <text x="408" y="379" fill="#c2e7e4" font-family="Arial, sans-serif" font-size="16">Keys and access policy</text>
+    <path d="M645 340H690" stroke="url(#line)" stroke-width="6"/><path d="M685 328l22 12-22 12" fill="#81a7ff"/>
+    <rect x="710" y="215" width="210" height="250" rx="20" fill="#252d55" stroke="#81a7ff"/>
+    <text x="738" y="263" fill="#a9c4ff" font-family="Arial, sans-serif" font-size="16" font-weight="700">3 — ROUTE</text>
+    <text x="738" y="311" fill="#f1f8fc" font-family="Arial, sans-serif" font-size="23" font-weight="700">Runtime path</text>
+    <text x="738" y="347" fill="#d1d9f5" font-family="Arial, sans-serif" font-size="16">Endpoint and tools</text>
+    <text x="738" y="379" fill="#d1d9f5" font-family="Arial, sans-serif" font-size="16">Safe exception rule</text>
+    <path d="M940 340H985" stroke="url(#line)" stroke-width="6"/><path d="M980 328l22 12-22 12" fill="#81a7ff"/>
+    <rect x="1005" y="215" width="145" height="250" rx="20" fill="#17243b" stroke="#e3b36a"/>
+    <text x="1028" y="263" fill="#f5c675" font-family="Arial, sans-serif" font-size="16" font-weight="700">4 — SHOW</text>
+    <text x="1028" y="311" fill="#f1f8fc" font-family="Arial, sans-serif" font-size="20" font-weight="700">Evidence</text>
+    <text x="1028" y="347" fill="#d9d3c4" font-family="Arial, sans-serif" font-size="15">Logs</text>
+    <text x="1028" y="377" fill="#d9d3c4" font-family="Arial, sans-serif" font-size="15">Traces</text>
+    <text x="1028" y="407" fill="#d9d3c4" font-family="Arial, sans-serif" font-size="15">Audit record</text>
+  </g>
+  <text x="70" y="606" fill="#a8c6d6" font-family="Arial, sans-serif" font-size="18">Classify first. Route deliberately. Prove the actual path.</text>
+  <text x="70" y="638" fill="#7da5bb" font-family="Arial, sans-serif" font-size="16">NetworkGain analysis • Data residency must cover the whole workflow, not only the model request.</text>
+</svg>
